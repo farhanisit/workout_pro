@@ -1,0 +1,39 @@
+name: workout_pro
+description: "A Flutter and Firebase Workout App."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.12.1  # Firebase core (required)
+  firebase_auth: ^5.0.0  # For email/password auth
+  google_sign_in: ^6.1.5   # For Google Sign-In
+  provider: ^6.0.5         # For state management
+  # Keep existing
+  flutter_animate: ^4.1.1+1  # For Fitezo animations
+  cloud_firestore: ^4.15.1   # If using Firestore
+  intl: ^0.18.1             # For date formatting
+  
+  # Add only if needed
+  # cupertino_icons: ^1.0.6  # Uncomment if using iOS-style icons
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^5.0.0
+
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
